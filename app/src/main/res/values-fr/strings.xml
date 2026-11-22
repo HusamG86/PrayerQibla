@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Horaires de prière</string>
+
+    <string name="prayer_fajr">Fajr</string>
+    <string name="prayer_sunrise">Lever du soleil</string>
+    <string name="prayer_dhuhr">Dhuhr</string>
+    <string name="prayer_asr">Asr</string>
+    <string name="prayer_maghrib">Maghrib</string>
+    <string name="prayer_isha">Isha</string>
+
+    <string name="notification_channel">Alertes de prière</string>
+    <string name="notification_title">C’est l’heure de %1$s</string>
+    <string name="notification_text">Horaires de prière</string>
+</resources>

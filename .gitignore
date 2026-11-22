@@ -1,0 +1,25 @@
+# Gradle
+/.gradle/
+/app/build/
+/build/
+
+# Local SDK path and machine-specific settings
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Build artifacts / release binaries
+/app/release/
+*.apk
+*.aab
+
+# Signing material — never commit these
+keystore.properties
+*.jks
+*.keystore
+*.p12
+
+# Generated analysis output
+/tokensafe-out/

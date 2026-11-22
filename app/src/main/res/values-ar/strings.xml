@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">مواقيت الصلاة</string>
+
+    <string name="prayer_fajr">الفجر</string>
+    <string name="prayer_sunrise">الشروق</string>
+    <string name="prayer_dhuhr">الظهر</string>
+    <string name="prayer_asr">العصر</string>
+    <string name="prayer_maghrib">المغرب</string>
+    <string name="prayer_isha">العشاء</string>
+
+    <string name="notification_channel">الأذان</string>
+    <string name="notification_title">حان وقت صلاة %1$s</string>
+    <string name="notification_text">مواقيت الصلاة</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Waktu Salat</string>
+
+    <string name="prayer_fajr">Subuh</string>
+    <string name="prayer_sunrise">Terbit</string>
+    <string name="prayer_dhuhr">Zuhur</string>
+    <string name="prayer_asr">Asar</string>
+    <string name="prayer_maghrib">Magrib</string>
+    <string name="prayer_isha">Isya</string>
+
+    <string name="notification_channel">Notifikasi azan</string>
+    <string name="notification_title">Waktu salat %1$s</string>
+    <string name="notification_text">Waktu salat</string>
+</resources>

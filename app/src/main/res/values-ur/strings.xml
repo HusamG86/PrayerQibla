@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">نماز کے اوقات</string>
+
+    <string name="prayer_fajr">فجر</string>
+    <string name="prayer_sunrise">طلوع آفتاب</string>
+    <string name="prayer_dhuhr">ظہر</string>
+    <string name="prayer_asr">عصر</string>
+    <string name="prayer_maghrib">مغرب</string>
+    <string name="prayer_isha">عشاء</string>
+
+    <string name="notification_channel">اذان کی اطلاعات</string>
+    <string name="notification_title">%1$s کا وقت ہو گیا ہے</string>
+    <string name="notification_text">نماز کے اوقات</string>
+</resources>

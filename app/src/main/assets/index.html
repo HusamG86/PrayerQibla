@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; media-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" id="themeColor" content="#f5f7f2">
+<title>مواقيت الصلاة والقبلة · Prayer Times &amp; Qibla</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="topbar">
+    <div class="brand">
+      <h1 id="title"></h1>
+      <p class="subtitle" id="subtitle"></p>
+    </div>
+    <div class="tools">
+      <button id="themeBtn" class="icon-btn" type="button">◐</button>
+      <button id="settingsBtn" class="icon-btn" type="button">⚙</button>
+      <select id="langSelect"></select>
+    </div>
+  </header>
+
+  <div class="row location-row">
+    <select id="citySelect"></select>
+    <button id="gpsBtn" type="button"></button>
+  </div>
+
+  <section class="hero">
+    <small id="nextLabel"></small>
+    <div class="hero-name" id="nextName"></div>
+    <div class="hero-countdown" id="countdown" role="timer">--:--:--</div>
+  </section>
+
+  <div class="dates" id="dates"></div>
+
+  <section class="perm card" id="permCard" hidden>
+    <div class="perm-head">
+      <strong id="permTitle"></strong>
+    </div>
+    <div class="perm-row" id="permNotifRow">
+      <span id="permNotifLabel"></span>
+      <span class="perm-state" id="permNotifState"></span>
+      <button class="mini" id="permNotifBtn" type="button"></button>
+    </div>
+    <div class="perm-row" id="permExactRow">
+      <span id="permExactLabel"></span>
+      <span class="perm-state" id="permExactState"></span>
+      <button class="mini" id="permExactBtn" type="button"></button>
+    </div>
+    <div class="perm-row" id="permBatteryRow">
+      <span id="permBatteryLabel"></span>
+      <span class="perm-state" id="permBatteryState"></span>
+      <button class="mini" id="permBatteryBtn" type="button"></button>
+    </div>
+  </section>
+
+  <section class="list" id="prayerList" aria-label="Prayer times"></section>
+
+  <div class="row actions-row">
+    <button id="alertBtn" type="button"></button>
+    <button id="monthBtn" type="button"></button>
+  </div>
+
+  <section class="month card" id="month" hidden>
+    <div class="month-head">
+      <button class="icon-btn" id="monthPrev" type="button">‹</button>
+      <div class="month-label" id="monthLabel"></div>
+      <button class="icon-btn" id="monthNext" type="button">›</button>
+    </div>
+    <div class="month-scroll">
+      <table id="monthTable"></table>
+    </div>
+  </section>
+
+  <section class="qibla card">
+    <h2 id="qiblaTitle"></h2>
+    <div class="deg" id="qiblaDeg"></div>
+    <svg viewBox="0 0 240 240" role="img" id="qiblaSvg">
+      <g id="dial">
+        <circle cx="120" cy="120" r="108" fill="none" stroke="var(--line)" stroke-width="2"/>
+        <circle cx="120" cy="120" r="96" fill="var(--accent2)" stroke="none"/>
+        <text x="120" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="var(--text)">N</text>
+        <text x="215" y="126" text-anchor="middle" font-size="13" fill="var(--muted)">E</text>
+        <text x="120" y="222" text-anchor="middle" font-size="13" fill="var(--muted)">S</text>
+        <text x="25" y="126" text-anchor="middle" font-size="13" fill="var(--muted)">W</text>
+      </g>
+      <g id="needle">
+        <polygon points="120,34 109,126 131,126" fill="var(--accent)"/>
+        <rect x="108" y="14" width="24" height="24" rx="4" fill="var(--gold)"/>
+        <text x="120" y="32" text-anchor="middle" font-size="16" fill="#fff">🕋</text>
+        <circle cx="120" cy="126" r="7" fill="var(--text)"/>
+      </g>
+    </svg>
+    <div class="compass-meta" id="compassState"></div>
+    <button id="compassBtn" type="button"></button>
+    <p class="note" id="qiblaNote"></p>
+  </section>
+</main>
+
+<div class="sheet" id="settingsSheet" hidden>
+  <div class="sheet-backdrop" id="settingsBackdrop"></div>
+  <section class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+    <div class="sheet-head">
+      <h2 id="settingsTitle"></h2>
+      <button class="icon-btn" id="settingsClose" type="button">✕</button>
+    </div>
+    <label class="field">
+      <span id="methodLabel"></span>
+      <select id="methodSelect"></select>
+    </label>
+    <label class="field">
+      <span id="asrLabel"></span>
+      <select id="asrSelect"></select>
+    </label>
+    <label class="field">
+      <span id="highLatLabel"></span>
+      <select id="highLatSelect"></select>
+    </label>
+    <label class="field">
+      <span id="timeFormatLabel"></span>
+      <select id="timeFormatSelect"></select>
+    </label>
+    <p class="note" id="settingsNote"></p>
+  </section>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
