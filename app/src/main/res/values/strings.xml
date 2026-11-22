@@ -11,4 +11,24 @@
     <string name="notification_channel">Adhan alerts</string>
     <string name="notification_title">Time for %1$s</string>
     <string name="notification_text">Prayer times</string>
+
+    <string name="widget_compact_label">Prayer · Compact</string>
+    <string name="widget_compact_desc">Next prayer and time in a small card.</string>
+    <string name="widget_countdown_label">Prayer · Countdown</string>
+    <string name="widget_countdown_desc">Large countdown to the next prayer.</string>
+    <string name="widget_timetable_label">Prayer · Timetable</string>
+    <string name="widget_timetable_desc">All five prayer times for today.</string>
+    <string name="widget_city_fallback">Prayer times</string>
+    <string name="widget_next_prefix">"Next prayer · "</string>
+    <string name="widget_no_location">Open the app to set your location</string>
+    <string name="widget_config_title">Widget colors</string>
+    <string name="widget_config_bg">Background</string>
+    <string name="widget_config_text">Text</string>
+    <string name="widget_config_accent">Accent</string>
+    <string name="widget_config_opacity">Background opacity</string>
+    <string name="widget_config_save">Save</string>
+    <string name="widget_config_invalid">Enter a color like #0C1511</string>
+    <string name="widget_manager_title">Home-screen widgets</string>
+    <string name="widget_manager_empty">No widgets placed yet</string>
+    <string name="widget_manager_edit">Edit</string>
 </resources>

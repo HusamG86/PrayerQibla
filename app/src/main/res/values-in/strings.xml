@@ -11,4 +11,24 @@
     <string name="notification_channel">Notifikasi azan</string>
     <string name="notification_title">Waktu salat %1$s</string>
     <string name="notification_text">Waktu salat</string>
+
+    <string name="widget_compact_label">Salat · Ringkas</string>
+    <string name="widget_compact_desc">Salat berikutnya dan waktu dalam kartu kecil.</string>
+    <string name="widget_countdown_label">Salat · Hitung mundur</string>
+    <string name="widget_countdown_desc">Hitung mundur besar menuju salat berikutnya.</string>
+    <string name="widget_timetable_label">Salat · Jadwal</string>
+    <string name="widget_timetable_desc">Lima waktu salat hari ini.</string>
+    <string name="widget_city_fallback">Waktu salat</string>
+    <string name="widget_next_prefix">"Salat berikutnya · "</string>
+    <string name="widget_no_location">Buka aplikasi untuk mengatur lokasi</string>
+    <string name="widget_config_title">Warna widget</string>
+    <string name="widget_config_bg">Latar belakang</string>
+    <string name="widget_config_text">Teks</string>
+    <string name="widget_config_accent">Aksen</string>
+    <string name="widget_config_opacity">Opasitas latar belakang</string>
+    <string name="widget_config_save">Simpan</string>
+    <string name="widget_config_invalid">Masukkan warna seperti #0C1511</string>
+    <string name="widget_manager_title">Widget layar utama</string>
+    <string name="widget_manager_empty">Belum ada widget yang dipasang</string>
+    <string name="widget_manager_edit">Edit</string>
 </resources>

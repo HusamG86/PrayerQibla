@@ -11,4 +11,24 @@
     <string name="notification_channel">Ezan bildirimleri</string>
     <string name="notification_title">%1$s vakti</string>
     <string name="notification_text">Namaz vakitleri</string>
+
+    <string name="widget_compact_label">Namaz · Küçük</string>
+    <string name="widget_compact_desc">Bir sonraki namaz ve saati küçük kartta.</string>
+    <string name="widget_countdown_label">Namaz · Geri sayım</string>
+    <string name="widget_countdown_desc">Sonraki namaza kadar büyük geri sayım.</string>
+    <string name="widget_timetable_label">Namaz · Tablo</string>
+    <string name="widget_timetable_desc">Bugünün beş namaz vakti.</string>
+    <string name="widget_city_fallback">Namaz vakitleri</string>
+    <string name="widget_next_prefix">"Sıradaki namaz · "</string>
+    <string name="widget_no_location">Konumu ayarlamak için uygulamayı açın</string>
+    <string name="widget_config_title">Widget renkleri</string>
+    <string name="widget_config_bg">Arka plan</string>
+    <string name="widget_config_text">Metin</string>
+    <string name="widget_config_accent">Vurgu rengi</string>
+    <string name="widget_config_opacity">Arka plan opaklığı</string>
+    <string name="widget_config_save">Kaydet</string>
+    <string name="widget_config_invalid">#0C1511 gibi bir renk girin</string>
+    <string name="widget_manager_title">Ana ekran widget’ları</string>
+    <string name="widget_manager_empty">Henüz widget eklenmedi</string>
+    <string name="widget_manager_edit">Düzenle</string>
 </resources>

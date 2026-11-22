@@ -301,7 +301,6 @@ class MainActivity : Activity() {
             }
             edit.apply()
             AdhanScheduler.schedule(applicationContext)
-            PrayerWidgetProvider.refreshAll(applicationContext)
         }
 
         @JavascriptInterface

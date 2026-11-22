@@ -11,4 +11,24 @@
     <string name="notification_channel">اذان کی اطلاعات</string>
     <string name="notification_title">%1$s کا وقت ہو گیا ہے</string>
     <string name="notification_text">نماز کے اوقات</string>
+
+    <string name="widget_compact_label">نماز · چھوٹا</string>
+    <string name="widget_compact_desc">اگلی نماز اور وقت ایک چھوٹے کارڈ میں۔</string>
+    <string name="widget_countdown_label">نماز · کاؤنٹ ڈاؤن</string>
+    <string name="widget_countdown_desc">اگلی نماز تک بڑا کاؤنٹ ڈاؤن۔</string>
+    <string name="widget_timetable_label">نماز · شیڈول</string>
+    <string name="widget_timetable_desc">آج کی پانچوں نمازوں کے اوقات۔</string>
+    <string name="widget_city_fallback">نماز کے اوقات</string>
+    <string name="widget_next_prefix">"اگلی نماز · "</string>
+    <string name="widget_no_location">مقام طے کرنے کے لیے ایپ کھولیں</string>
+    <string name="widget_config_title">وِجٹ کے رنگ</string>
+    <string name="widget_config_bg">پس منظر</string>
+    <string name="widget_config_text">متن</string>
+    <string name="widget_config_accent">نمایاں رنگ</string>
+    <string name="widget_config_opacity">پس منظر کی شفافیت</string>
+    <string name="widget_config_save">محفوظ کریں</string>
+    <string name="widget_config_invalid">#0C1511 جیسا رنگ درج کریں</string>
+    <string name="widget_manager_title">ہوم اسکرین وِجٹس</string>
+    <string name="widget_manager_empty">ابھی کوئی وِجٹ نہیں رکھا گیا</string>
+    <string name="widget_manager_edit">ترمیم</string>
 </resources>

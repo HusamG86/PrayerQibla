@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_compact_min_width">110dp</dimen>
+    <dimen name="widget_compact_min_height">70dp</dimen>
+    <dimen name="widget_countdown_min_width">160dp</dimen>
+    <dimen name="widget_countdown_min_height">110dp</dimen>
+    <dimen name="widget_timetable_min_width">180dp</dimen>
+    <dimen name="widget_timetable_min_height">160dp</dimen>
+</resources>

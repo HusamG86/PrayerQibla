@@ -11,4 +11,24 @@
     <string name="notification_channel">الأذان</string>
     <string name="notification_title">حان وقت صلاة %1$s</string>
     <string name="notification_text">مواقيت الصلاة</string>
+
+    <string name="widget_compact_label">الصلاة · مدمج</string>
+    <string name="widget_compact_desc">الصلاة القادمة ووقتها في بطاقة صغيرة.</string>
+    <string name="widget_countdown_label">الصلاة · عدّاد</string>
+    <string name="widget_countdown_desc">عدّاد كبير للصلاة القادمة.</string>
+    <string name="widget_timetable_label">الصلاة · جدول</string>
+    <string name="widget_timetable_desc">مواقيت الصلوات الخمس لليوم.</string>
+    <string name="widget_city_fallback">مواقيت الصلاة</string>
+    <string name="widget_next_prefix">"الصلاة القادمة · "</string>
+    <string name="widget_no_location">افتح التطبيق لتحديد موقعك</string>
+    <string name="widget_config_title">ألوان الواجهة</string>
+    <string name="widget_config_bg">الخلفية</string>
+    <string name="widget_config_text">النص</string>
+    <string name="widget_config_accent">اللون المميز</string>
+    <string name="widget_config_opacity">شفافية الخلفية</string>
+    <string name="widget_config_save">حفظ</string>
+    <string name="widget_config_invalid">أدخل لونًا مثل #0C1511</string>
+    <string name="widget_manager_title">واجهات الشاشة الرئيسية</string>
+    <string name="widget_manager_empty">لم يتم إضافة واجهات بعد</string>
+    <string name="widget_manager_edit">تعديل</string>
 </resources>

@@ -11,4 +11,24 @@
     <string name="notification_channel">Alertes de prière</string>
     <string name="notification_title">C’est l’heure de %1$s</string>
     <string name="notification_text">Horaires de prière</string>
+
+    <string name="widget_compact_label">Prière · Compact</string>
+    <string name="widget_compact_desc">Prochaine prière et heure dans une petite carte.</string>
+    <string name="widget_countdown_label">Prière · Compte à rebours</string>
+    <string name="widget_countdown_desc">Grand compte à rebours jusqu’à la prochaine prière.</string>
+    <string name="widget_timetable_label">Prière · Tableau</string>
+    <string name="widget_timetable_desc">Les cinq horaires de prière du jour.</string>
+    <string name="widget_city_fallback">Horaires de prière</string>
+    <string name="widget_next_prefix">"Prochaine prière · "</string>
+    <string name="widget_no_location">Ouvrez l’application pour définir votre position</string>
+    <string name="widget_config_title">Couleurs du widget</string>
+    <string name="widget_config_bg">Arrière-plan</string>
+    <string name="widget_config_text">Texte</string>
+    <string name="widget_config_accent">Accent</string>
+    <string name="widget_config_opacity">Opacité de l’arrière-plan</string>
+    <string name="widget_config_save">Enregistrer</string>
+    <string name="widget_config_invalid">Saisissez une couleur comme #0C1511</string>
+    <string name="widget_manager_title">Widgets de l’écran d’accueil</string>
+    <string name="widget_manager_empty">Aucun widget placé pour le moment</string>
+    <string name="widget_manager_edit">Modifier</string>
 </resources>

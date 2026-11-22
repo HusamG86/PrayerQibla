@@ -3,6 +3,7 @@ package com.sa.prayerqibla
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
+import com.sa.prayerqibla.widget.WidgetRefresh
 
 /**
  * Rebuilds alarms after boot, an app update, a clock/time-zone change, or a date change.
@@ -23,6 +24,7 @@ class BootReceiver : BroadcastReceiver() {
         // Only react to the protected broadcasts this receiver is registered for.
         if (intent.action !in ACTIONS) return
         AdhanScheduler.schedule(ctx)
-        PrayerWidgetProvider.refreshAll(ctx)
+        WidgetRefresh.rescheduleIfNeeded(ctx)
+        WidgetRefresh.refreshAll(ctx)
     }
 }
